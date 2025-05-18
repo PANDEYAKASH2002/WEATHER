@@ -1,12 +1,62 @@
-# React + Vite
+# 🌦️ Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek and simple **Weather App** built using HTML, CSS, and JavaScript. Just enter the name of any city and hit the **Search** button — the app fetches real-time weather data and displays it instantly.
 
-Currently, two official plugins are available:
+🔗 **Live Demo**: [https://weather-gamma-olive.vercel.app/](https://weather-gamma-olive.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🌍 Get **current weather** information for any city worldwide
+- 🔍 Easy-to-use **search interface**
+- ☀️ Displays key data like:
+  - Temperature
+  - Weather conditions (e.g., Clear, Rainy, Cloudy)
+  - Humidity
+  - Wind speed
+- 📱 Fully responsive design for mobile and desktop
+
+---
+
+## 🛠️ Tech Stack
+
+- **HTML** – Markup structure
+- **CSS** – Styling and layout
+- **JavaScript** – Logic, API calls, and interactivity
+- **OpenWeatherMap API** – For real-time weather data
+- **Vercel** – For deployment
+
+---
+
+## 📸 Preview
+
+![Weather App Screenshot](https://your-screenshot-link-if-any.png)
+
+---
+
+## 🚀 How to Use
+
+1. Visit the [Live Site](https://weather-gamma-olive.vercel.app/)
+2. Type any **city name** (e.g., *London*, *New York*, *Delhi*)
+3. Click on **Search**
+4. Instantly view current weather data for the entered city!
+
+---
+
+## 💡 Future Improvements
+
+- Add search history
+- Display a 5-day forecast
+- Show map view using Google Maps API
+- Use local storage to remember the last searched city
+
+---
+
+## 📁 Project Setup (For Developers)
+
+```bash
+# Clone the repo
+git clone https://github.com/PANDEYAKASH2002/weather-app.git
+
+

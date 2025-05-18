@@ -25,7 +25,11 @@ function Main() {
        }
     }
   return (
+
     <div className="Main h-full ">
+
+    <div className="Main h-screen">
+
       <h1 className='text-2xl m-2 '><b>🌤️ Weather App</b></h1>
              <div className='flex justify-center items-center '>
                <input type="text" value={city}  onChange={(e)=>setCity(e.target.value)} className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500  ps-10 p-2.5  m-4 " placeholder="enter your city here...." required />
@@ -46,7 +50,7 @@ function Main() {
             )
         }
       </div>
-      
+      </div>
     </div>
   )
 }
